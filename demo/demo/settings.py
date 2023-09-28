@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-mv#06&oegypj9^p7x27q+uymh685n9zj*$#*u9tdc=lga2$)2(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['{{EDUCATIVE_LIVE_VM_URL}}'.replace('https://','')]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'main_db',
+        'NAME': 'main_db_1',
         'USER': 'postgres',
         'PASSWORD': 'pstSQL254',
         'HOST': 'localhost',
@@ -128,4 +128,3 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['{{EDUCATIVE_LIVE_VM_URL}}']
