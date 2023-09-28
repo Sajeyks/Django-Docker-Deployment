@@ -1,4 +1,11 @@
 # running tings
 
-# build image:
-`docker build`
+1. # build image:
+- create Dockerfile
+- build image: `docker build`
+
+2. # Run container:
+- create docker compose
+- run dockercompose file: `docker-compose up`
+
+3. # 
