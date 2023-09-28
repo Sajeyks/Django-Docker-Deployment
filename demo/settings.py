@@ -81,7 +81,7 @@ DATABASES = {
         'NAME': 'main_db_1',
         'USER': 'postgres',
         'PASSWORD': 'pstSQL254',
-        'HOST': 'host.docker.internal',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }

@@ -8,4 +8,6 @@
 - create docker compose
 - run dockercompose file: `docker-compose up`
 
-3. # 
+> Note :
+DB 'HOST' configuration must be configured from `localhost` to `host.docker.internal` if its on localhost.
+ If the db is also in a container, its `db` as the name of the DB's service.
