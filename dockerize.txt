@@ -1,0 +1,4 @@
+# running tings
+
+# build image:
+`docker build`
