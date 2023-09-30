@@ -7,6 +7,7 @@
 2. # Run container:
 - create docker compose
 - run dockercompose file: `docker-compose up`
+- to rerun it on total rebuild: `docker-compose `
 
 > Note :
 DB 'HOST' configuration must be configured from `localhost` to `host.docker.internal` if its on localhost.
